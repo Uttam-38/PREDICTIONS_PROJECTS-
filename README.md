@@ -55,14 +55,7 @@ Model Persistence: Save the trained model for faster predictions without retrain
 Enhanced Input Validation: Add more detailed validation for user inputs.
 User Interface: Consider developing a web-based interface for a more accessible user experience. 
 
-**License**
-
-This project is licensed under the MIT License.
-
-
-
-
-
+------------------------------------------------------------------------------------------------
 
 **HOUSE PRICE PREDICTIONS** 
 This project predicts house prices based on several key factors like area, bedrooms, bathrooms, and more. The models used in this project include Decision Tree, Bagging Regressor, and Support Vector Machine (SVM) for regression. The objective is to help users estimate house prices accurately using machine learning models trained on historical housing data.
@@ -107,3 +100,8 @@ The models are evaluated using the following metrics:
 **Root Mean Squared Error (RMSE):** Measures the average deviation of predictions from actual values.
 **F1 Score (for classification tasks if needed):** Not applicable for pure regression but can be computed if categorical price ranges are predicted.
 **ROC Curve (for classification tasks if needed):** Not directly used for regression models; however, it can apply if the task is modified to predict price categories.
+
+
+**License**
+
+This project is licensed under the MIT License.
