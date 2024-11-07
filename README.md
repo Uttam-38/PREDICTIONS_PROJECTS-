@@ -1,4 +1,10 @@
 # PREDICTIONS_PROJECTS-
+
+**THERE ARE TWO PREDICIOTNS LISTED :**
+**1. CUSTOMER LOAN PREDICTION**
+**2. HOUSE PRICE PREDICTION**
+
+
 This project uses machine learning to predict loan eligibility based on user-provided information. It leverages an XGBoost classifier trained on key financial and demographic factors, with a user-friendly command-line interface that provides eligibility predictions and actionable recommendations for improving eligibility.
 
 **Project Overview**
@@ -52,3 +58,52 @@ User Interface: Consider developing a web-based interface for a more accessible 
 **License**
 
 This project is licensed under the MIT License.
+
+
+
+
+
+
+**HOUSE PRICE PREDICTIONS** 
+This project predicts house prices based on several key factors like area, bedrooms, bathrooms, and more. The models used in this project include Decision Tree, Bagging Regressor, and Support Vector Machine (SVM) for regression. The objective is to help users estimate house prices accurately using machine learning models trained on historical housing data.
+
+**Project Overview**
+
+This repository contains code and resources for predicting house prices using machine learning. The project focuses on applying regression algorithms to analyze key features impacting house prices.
+
+**Key objectives:**
+
+Develop multiple regression models for comparison.
+Identify important features affecting house prices.
+Provide an interactive way for users to input values and predict house prices.
+Data
+
+**The dataset used in this project includes various features relevant to housing prices, such as:**
+
+1. area: The area of the property in square feet.
+  
+2. bedrooms: Number of bedrooms.
+
+3. bathrooms: Number of bathrooms.
+
+4. stories: Number of stories in the property.
+
+5. parking: Availability of parking spaces.
+
+And other categorical and continuous features that influence housing prices.
+Models and Algorithms
+
+**The project explores the following algorithms:**
+
+Decision Tree Regressor: A model that splits data based on feature importance.
+Bagging Regressor: An ensemble technique that combines predictions from multiple decision trees.
+Support Vector Machine (SVM) Regressor: A model that tries to find a hyperplane to fit the data optimally.
+Each model is evaluated to determine which one yields the most accurate predictions.
+
+**Evaluation Metrics**
+
+The models are evaluated using the following metrics:
+
+**Root Mean Squared Error (RMSE):** Measures the average deviation of predictions from actual values.
+**F1 Score (for classification tasks if needed):** Not applicable for pure regression but can be computed if categorical price ranges are predicted.
+**ROC Curve (for classification tasks if needed):** Not directly used for regression models; however, it can apply if the task is modified to predict price categories.
