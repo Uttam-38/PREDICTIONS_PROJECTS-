@@ -5,12 +5,17 @@ This project uses machine learning to predict loan eligibility based on user-pro
 
 This application predicts whether a loan applicant is eligible for a loan based on six input factors:
 
-Age
-Job type
-Account balance
-Housing ownership
-Existing loans
-Duration of last contact with the bank
+1. Age
+
+2. Job type
+
+3. Account balance
+
+4. Housing ownership
+
+5. Existing loans
+   
+6. Duration of last contact with the bank
 If the applicant is found ineligible, the program offers recommendations for improving eligibility, such as increasing their account balance or paying off existing loans.
 
 **Features**
